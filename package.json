@@ -16,7 +16,6 @@
     ]
   },
   "scripts": {
-    "prepare": "npm run build",
     "build": "npm run lib && npm run dist",
     "start": "NODE_ENV=development webpack-dev-server --config ./webpack/dev.config.js",
     "predist": "rm -rf ./build",
